@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="64" viewBox="0 0 820 64" fill="none" role="img" aria-label="AI Agent / Infrastructure Engineer · System builder, not feature builder · Context is the weapon · Defense-in-depth">
+  <title>Yongmin Cho — gooey morphing headline</title>
+  <!-- Gooey = animated Gaussian blur (spikes at each word boundary) passed through an
+       alpha threshold so the blurred edges of the outgoing/incoming words merge.
+       Pure SMIL, no JavaScript — renders inside a GitHub README <img>. -->
+  <defs>
+    <filter id="goo" x="-5%" y="-60%" width="110%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0" result="blur">
+        <animate attributeName="stdDeviation" dur="12s" repeatCount="indefinite"
+          keyTimes="0;0.06;0.27;0.3333;0.40;0.61;0.6667;0.73;0.94;1"
+          values="6;0;0;6;0;0;6;0;0;6" />
+      </feGaussianBlur>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" />
+    </filter>
+  </defs>
+
+  <g filter="url(#goo)" fill="#25E2F4" text-anchor="middle"
+     font-family="'Fira Code','JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace"
+     font-size="24" font-weight="600">
+    <text x="410" y="40" opacity="0.5">AI Agent / Infrastructure Engineer
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+        keyTimes="0;0.06;0.27;0.3333;0.40;0.94;1"
+        values="0.5;1;1;0.5;0;0;0.5" />
+    </text>
+    <text x="410" y="40" opacity="0">System builder, not feature builder
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+        keyTimes="0;0.27;0.3333;0.40;0.61;0.6667;0.73;1"
+        values="0;0;0.5;1;1;0.5;0;0" />
+    </text>
+    <text x="410" y="40" opacity="0.5">Context is the weapon &#183; Defense-in-depth
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+        keyTimes="0;0.06;0.61;0.6667;0.73;0.94;1"
+        values="0.5;0;0;0.5;1;1;0.5" />
+    </text>
+  </g>
+</svg>

@@ -2,8 +2,8 @@
 
 # 조용민 · Yongmin Cho
 
-<a href="https://github.com/DenverCoder1/readme-typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&center=true&vCenter=true&width=820&lines=AI+Agent+%2F+Infrastructure+Engineer;System+builder%2C+not+feature+builder;Context+is+the+weapon+%C2%B7+Defense-in-depth" alt="AI Agent / Infrastructure Engineer" />
+<a href="https://joymin5655.github.io">
+  <img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/gooey.svg" width="820" alt="AI Agent / Infrastructure Engineer · System builder, not feature builder · Context is the weapon · Defense-in-depth" />
 </a>
 
 <p>
