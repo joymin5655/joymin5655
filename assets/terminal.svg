@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" viewBox="0 0 860 360" role="img" aria-label="터미널 데모: whoami — AI Agent · Infrastructure Engineer. airlens --stats — 라이브 50+개국, 66k 요청/30일, 1,261 커밋, ML 엔진 5. agent enforce — 3 런타임, 24 훅, 6 에이전트, 8 스킬. gpa — 헬스케어 데이터사이언스 4.44/4.5">
+  <defs>
+    <clipPath id="tw1"><rect x="28" y="52" width="0" height="22"><animate attributeName="width" from="0" to="95" begin="0.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="tw2"><rect x="28" y="108" width="0" height="22"><animate attributeName="width" from="0" to="165" begin="1.8s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="tw3"><rect x="28" y="188" width="0" height="22"><animate attributeName="width" from="0" to="378" begin="3.9s" dur="1.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="tw4"><rect x="28" y="268" width="0" height="22"><animate attributeName="width" from="0" to="352" begin="6.4s" dur="1.1s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="858" height="358" rx="14" fill="#16161e" stroke="#2a2f45"/>
+  <path d="M 15 1 H 845 A 14 14 0 0 1 859 15 V 35 H 1 V 15 A 14 14 0 0 1 15 1 Z" fill="#1a1b27"/>
+  <line x1="1" y1="35" x2="859" y2="35" stroke="#2a2f45" stroke-width="1"/>
+  <circle cx="24" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="18" r="6" fill="#28c840"/>
+  <text x="430" y="22" text-anchor="middle" font-family="'SF Mono','Cascadia Code','Fira Code',Menlo,monospace" font-size="12" fill="#565f89">yongmin @ airlens — zsh</text>
+
+  <g font-family="'SF Mono','Cascadia Code','Fira Code',Menlo,'Apple SD Gothic Neo','Malgun Gothic',monospace" font-size="14">
+    <!-- $ whoami -->
+    <text x="28" y="68" clip-path="url(#tw1)"><tspan fill="#38bdae">$</tspan><tspan fill="#c0caf5" dx="8">whoami</tspan></text>
+    <text x="28" y="92" fill="#9aa5ce" opacity="0"><tspan>AI Agent · Infrastructure Engineer — AI 제품을 끝까지, 혼자 만듭니다</tspan><animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.25s" fill="freeze"/></text>
+
+    <!-- $ airlens stats -->
+    <text x="28" y="124" clip-path="url(#tw2)"><tspan fill="#38bdae">$</tspan><tspan fill="#c0caf5" dx="8">airlens --stats</tspan></text>
+    <text x="28" y="148" opacity="0"><tspan fill="#9ece6a">✓</tspan><tspan fill="#9aa5ce" dx="8">live at</tspan><tspan fill="#25E2F4" dx="6">airlens.cloud</tspan><tspan fill="#9aa5ce" dx="6">· 50+ countries · 66k req/30d</tspan><animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.25s" fill="freeze"/></text>
+    <text x="28" y="172" opacity="0"><tspan fill="#9ece6a">✓</tspan><tspan fill="#25E2F4" dx="8">1,261</tspan><tspan fill="#9aa5ce" dx="6">solo commits · 10+ data sources ·</tspan><tspan fill="#25E2F4" dx="6">5</tspan><tspan fill="#9aa5ce" dx="6">ML engines</tspan><animate attributeName="opacity" from="0" to="1" begin="3.2s" dur="0.25s" fill="freeze"/></text>
+
+    <!-- $ agent enforce -->
+    <text x="28" y="204" clip-path="url(#tw3)"><tspan fill="#38bdae">$</tspan><tspan fill="#c0caf5" dx="8">agent enforce --policy governance.yaml</tspan></text>
+    <text x="28" y="228" opacity="0"><tspan fill="#9ece6a">✓</tspan><tspan fill="#bb9af7" dx="8">3</tspan><tspan fill="#9aa5ce" dx="6">runtimes (Claude · Codex · Gemini) ·</tspan><tspan fill="#bb9af7" dx="6">24</tspan><tspan fill="#9aa5ce" dx="6">hooks ·</tspan><tspan fill="#bb9af7" dx="6">6</tspan><tspan fill="#9aa5ce" dx="6">agents ·</tspan><tspan fill="#bb9af7" dx="6">8</tspan><tspan fill="#9aa5ce" dx="6">skills</tspan><animate attributeName="opacity" from="0" to="1" begin="5.3s" dur="0.25s" fill="freeze"/></text>
+    <text x="28" y="252" opacity="0"><tspan fill="#9ece6a">✓</tspan><tspan fill="#9aa5ce" dx="8">defense-in-depth: gitleaks → pre-commit → pre-push → CI</tspan><animate attributeName="opacity" from="0" to="1" begin="5.7s" dur="0.25s" fill="freeze"/></text>
+
+    <!-- $ gpa -->
+    <text x="28" y="284" clip-path="url(#tw4)"><tspan fill="#38bdae">$</tspan><tspan fill="#c0caf5" dx="8">gpa --major healthcare-data-science</tspan></text>
+    <text x="28" y="308" opacity="0"><tspan fill="#e0af68">4.44 / 4.5</tspan><tspan fill="#9aa5ce" dx="8">— 헬스케어 데이터사이언스 복수전공</tspan><animate attributeName="opacity" from="0" to="1" begin="7.7s" dur="0.25s" fill="freeze"/></text>
+
+    <!-- final prompt + blinking cursor -->
+    <text x="28" y="338" opacity="0"><tspan fill="#38bdae">$</tspan><animate attributeName="opacity" from="0" to="1" begin="8.3s" dur="0.2s" fill="freeze"/></text>
+    <rect x="44" y="325" width="9" height="17" fill="#c0caf5" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.5;0.51;1" dur="1.2s" begin="8.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

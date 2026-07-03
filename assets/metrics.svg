@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="130" viewBox="0 0 880 130" role="img" aria-label="핵심 지표: 1,261 커밋 단독 · 50+ 개국 도달 · 66k 요청/30일 · ML 엔진 5 · AI 런타임 3 · 헬스케어DS GPA 4.44">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1b27"/>
+      <stop offset="1" stop-color="#16161e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- card 1: commits -->
+  <g opacity="0" transform="translate(0,12)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.1s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.5s" begin="0.1s" fill="freeze"/>
+    <rect x="12" y="14" width="136" height="100" rx="12" fill="url(#cardBg)" stroke="#2a2f45"/>
+    <text x="80" y="58" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="27" font-weight="800" fill="#25E2F4">1,261</text>
+    <text x="80" y="82" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="11.5" fill="#8a93b5">커밋 · 단독</text>
+    <rect x="52" y="94" width="56" height="2.5" rx="1.25" fill="#25E2F4"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- card 2: countries -->
+  <g opacity="0" transform="translate(0,12)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.25s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.5s" begin="0.25s" fill="freeze"/>
+    <rect x="156" y="14" width="136" height="100" rx="12" fill="url(#cardBg)" stroke="#2a2f45"/>
+    <text x="224" y="58" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="27" font-weight="800" fill="#7aa2f7">50+</text>
+    <text x="224" y="82" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="11.5" fill="#8a93b5">개국 도달</text>
+    <rect x="196" y="94" width="56" height="2.5" rx="1.25" fill="#7aa2f7"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="0.5s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- card 3: requests -->
+  <g opacity="0" transform="translate(0,12)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.5s" begin="0.4s" fill="freeze"/>
+    <rect x="300" y="14" width="136" height="100" rx="12" fill="url(#cardBg)" stroke="#2a2f45"/>
+    <text x="368" y="58" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="27" font-weight="800" fill="#bb9af7">66k</text>
+    <text x="368" y="82" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="11.5" fill="#8a93b5">요청 / 30일</text>
+    <rect x="340" y="94" width="56" height="2.5" rx="1.25" fill="#bb9af7"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- card 4: ML engines -->
+  <g opacity="0" transform="translate(0,12)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.55s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.5s" begin="0.55s" fill="freeze"/>
+    <rect x="444" y="14" width="136" height="100" rx="12" fill="url(#cardBg)" stroke="#2a2f45"/>
+    <text x="512" y="58" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="27" font-weight="800" fill="#38bdae">5</text>
+    <text x="512" y="82" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="11.5" fill="#8a93b5">ML 엔진 (라이브)</text>
+    <rect x="484" y="94" width="56" height="2.5" rx="1.25" fill="#38bdae"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1.5s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- card 5: runtimes -->
+  <g opacity="0" transform="translate(0,12)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.5s" begin="0.7s" fill="freeze"/>
+    <rect x="588" y="14" width="136" height="100" rx="12" fill="url(#cardBg)" stroke="#2a2f45"/>
+    <text x="656" y="58" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="27" font-weight="800" fill="#7dcfff">3</text>
+    <text x="656" y="82" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="11.5" fill="#8a93b5">AI 런타임 통제</text>
+    <rect x="628" y="94" width="56" height="2.5" rx="1.25" fill="#7dcfff"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="2s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- card 6: GPA -->
+  <g opacity="0" transform="translate(0,12)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.85s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.5s" begin="0.85s" fill="freeze"/>
+    <rect x="732" y="14" width="136" height="100" rx="12" fill="url(#cardBg)" stroke="#2a2f45"/>
+    <text x="800" y="58" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="27" font-weight="800" fill="#e0af68">4.44</text>
+    <text x="800" y="82" text-anchor="middle" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="11.5" fill="#8a93b5">헬스케어DS GPA / 4.5</text>
+    <rect x="772" y="94" width="56" height="2.5" rx="1.25" fill="#e0af68"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="2.5s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
