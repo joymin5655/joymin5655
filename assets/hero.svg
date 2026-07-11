@@ -1,89 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="조용민 Yongmin Cho — AI Agent · Infrastructure Engineer. Production AI Agents, Multi-runtime Governance, ML and Physics Modeling, Healthcare Data Science">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" role="img" aria-label="조용민 Yongmin Cho, AI를 프로덕션까지 도달시키는 엔지니어. LIVE airlens.cloud">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#1a1b27"/>
-    </linearGradient>
-    <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="480" y2="0">
-      <stop offset="0" stop-color="#25E2F4"/>
-      <stop offset="0.35" stop-color="#7aa2f7"/>
-      <stop offset="0.7" stop-color="#bb9af7"/>
-      <stop offset="1" stop-color="#25E2F4"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-480 0; 480 0" dur="7s" repeatCount="indefinite"/>
-    </linearGradient>
-    <filter id="goo" x="-30%" y="-90%" width="160%" height="280%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="0">
-        <animate attributeName="stdDeviation" values="0;7;0" keyTimes="0;0.5;1" dur="4s" begin="-2s" repeatCount="indefinite"/>
-      </feGaussianBlur>
-      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"/>
-    </filter>
+    <style>
+      .sans{font-family:-apple-system,'Segoe UI','Pretendard',sans-serif}
+      .mono{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+    </style>
   </defs>
-
-  <rect x="1" y="1" width="878" height="228" rx="16" fill="url(#bg)" stroke="#2a2f45"/>
-
-  <!-- star field -->
-  <g fill="#c0caf5">
-    <circle cx="70" cy="30" r="1.1"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.2s" repeatCount="indefinite"/></circle>
-    <circle cx="180" cy="20" r="0.9"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="4.1s" repeatCount="indefinite"/></circle>
-    <circle cx="320" cy="34" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" begin="0.6s" repeatCount="indefinite"/></circle>
-    <circle cx="452" cy="24" r="0.8"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.6s" begin="1.1s" repeatCount="indefinite"/></circle>
-    <circle cx="540" cy="42" r="1.0"><animate attributeName="opacity" values="0.15;0.85;0.15" dur="4.4s" begin="0.3s" repeatCount="indefinite"/></circle>
-    <circle cx="612" cy="18" r="1.2"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.0s" begin="0.9s" repeatCount="indefinite"/></circle>
-    <circle cx="128" cy="196" r="0.9"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.9s" begin="0.4s" repeatCount="indefinite"/></circle>
-    <circle cx="270" cy="208" r="1.0"><animate attributeName="opacity" values="0.75;0.1;0.75" dur="3.3s" begin="1.4s" repeatCount="indefinite"/></circle>
-    <circle cx="500" cy="200" r="0.8"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.6s" begin="0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="586" cy="182" r="1.1"><animate attributeName="opacity" values="0.85;0.15;0.85" dur="2.9s" begin="0.2s" repeatCount="indefinite"/></circle>
-    <circle cx="660" cy="60" r="0.9"><animate attributeName="opacity" values="0.2;0.95;0.2" dur="3.7s" begin="1.0s" repeatCount="indefinite"/></circle>
-    <circle cx="846" cy="34" r="1.0"><animate attributeName="opacity" values="0.8;0.15;0.8" dur="4.2s" begin="0.5s" repeatCount="indefinite"/></circle>
-    <circle cx="852" cy="196" r="0.9"><animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+  <rect width="880" height="230" rx="12" fill="#0A0C10"/>
+  <g stroke="#1A1F2A" stroke-width="1">
+    <path d="M0 57.5H880M0 115.5H880M0 172.5H880"/>
+    <path d="M110.5 0V230M220.5 0V230M330.5 0V230M440.5 0V230M550.5 0V230M660.5 0V230M770.5 0V230"/>
   </g>
-
-  <!-- wireframe globe + orbiting satellite (AirLens motif) -->
-  <g transform="translate(756,115)" fill="none" stroke="#3b4261" stroke-width="1">
-    <circle r="56" stroke="#2f3450"/>
-    <ellipse rx="56" ry="20"/>
-    <ellipse rx="52" ry="56">
-      <animate attributeName="rx" values="52;6;52" dur="9s" repeatCount="indefinite"/>
-    </ellipse>
-    <circle r="62" stroke="#25E2F4" stroke-opacity="0.28" stroke-dasharray="3 7">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="3.2" fill="#25E2F4" stroke="none">
-      <animateMotion path="M -76 20 A 76 28 0 1 1 76 -20 A 76 28 0 1 1 -76 20 Z" dur="6.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="7" fill="#25E2F4" fill-opacity="0.18" stroke="none">
-      <animateMotion path="M -76 20 A 76 28 0 1 1 76 -20 A 76 28 0 1 1 -76 20 Z" dur="6.5s" repeatCount="indefinite"/>
-    </circle>
+  <g fill="#232936">
+    <circle cx="705" cy="52" r="1.6"/><circle cx="742" cy="38" r="1.6"/><circle cx="778" cy="60" r="1.6"/>
+    <circle cx="812" cy="44" r="1.6"/><circle cx="690" cy="84" r="1.6"/><circle cx="731" cy="72" r="1.6"/>
+    <circle cx="769" cy="92" r="1.6"/><circle cx="806" cy="78" r="1.6"/><circle cx="838" cy="64" r="1.6"/>
+    <circle cx="718" cy="108" r="1.6"/><circle cx="757" cy="118" r="1.6"/><circle cx="793" cy="106" r="1.6"/>
+    <circle cx="828" cy="96" r="1.6"/><circle cx="846" cy="118" r="1.6"/><circle cx="700" cy="132" r="1.6"/>
   </g>
-
-  <!-- name -->
-  <text x="40" y="88" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="40" font-weight="800" fill="url(#nameGrad)">조용민 <tspan font-size="25" font-weight="600">· Yongmin Cho</tspan></text>
-
-  <!-- role line -->
-  <text x="40" y="121" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="15" fill="#8a93b5">AI Agent · Infrastructure Engineer — 기능이 아니라, 시스템을 만듭니다</text>
-
-  <!-- gooey morphing line -->
-  <g filter="url(#goo)" font-family="'Segoe UI','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif" font-size="21" font-weight="700" fill="#25E2F4">
-    <text x="40" y="163" opacity="0">Production AI Agents<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.025;0.225;0.25;1" dur="16s" begin="0s" repeatCount="indefinite"/></text>
-    <text x="40" y="163" opacity="0" fill="#bb9af7">Multi-runtime Governance<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.025;0.225;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/></text>
-    <text x="40" y="163" opacity="0" fill="#7aa2f7">ML &amp; Physics Modeling<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.025;0.225;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/></text>
-    <text x="40" y="163" opacity="0" fill="#38bdae">Healthcare Data Science<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.025;0.225;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/></text>
+  <path d="M700 130 Q760 40 830 96" fill="none" stroke="#D7FF3F" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="3.4s" repeatCount="indefinite"/>
+  </path>
+  <circle r="2.4" fill="#D7FF3F">
+    <animateMotion dur="3.4s" repeatCount="indefinite" path="M700 130 Q760 40 830 96"/>
+  </circle>
+  <g class="mono" font-size="12">
+    <circle cx="48" cy="46" r="3.5" fill="#43D9AD">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="60" y="50" fill="#43D9AD" letter-spacing="1">LIVE · airlens.cloud</text>
+    <text x="832" y="50" fill="#7E8798" text-anchor="end" letter-spacing="2">SIGNAL OBSERVATORY</text>
   </g>
-
-  <!-- pipeline: data → ml → deploy -->
   <g>
-    <line x1="40" y1="198" x2="470" y2="198" stroke="#2a2f45" stroke-width="1.6" stroke-dasharray="6 6">
-      <animate attributeName="stroke-dashoffset" values="0;-48" dur="1.6s" repeatCount="indefinite"/>
-    </line>
-    <circle cx="56" cy="198" r="4.5" fill="#25E2F4"/>
-    <circle cx="220" cy="198" r="4.5" fill="#bb9af7"/>
-    <circle cx="384" cy="198" r="4.5" fill="#38bdae"/>
-    <circle cx="470" cy="198" r="3" fill="#8a93b5"/>
-    <g font-family="'SF Mono','Cascadia Code','Fira Code',Menlo,monospace" font-size="10" fill="#8a93b5">
-      <text x="56" y="216" text-anchor="middle">DATA</text>
-      <text x="220" y="216" text-anchor="middle">ML</text>
-      <text x="384" y="216" text-anchor="middle">DEPLOY</text>
-      <text x="470" y="216" text-anchor="middle" fill="#565f89">SOLO</text>
-    </g>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2;1" dur="1s" begin="0s" fill="freeze"/>
+    <text x="44" y="118" class="sans" font-size="42" font-weight="800" fill="#EDEFF4" letter-spacing="-1">AI를 <tspan fill="#D7FF3F">프로덕션</tspan>까지 도달시키는 엔지니어</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.47;1" dur="1.5s" begin="0s" fill="freeze"/>
+    <text x="44" y="150" class="mono" font-size="13" fill="#8A93A6">YONGMIN CHO · 조용민 · AI Agent / Infrastructure Engineer</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.58;1" dur="1.9s" begin="0s" fill="freeze"/>
+    <text x="44" y="196" class="mono" font-size="13" fill="#EDEFF4">66,307 <tspan fill="#7E8798">req/30d·55국*</tspan>   296 <tspan fill="#7E8798">blocked·0 FP</tspan>   121 <tspan fill="#7E8798">migrations</tspan>   <tspan fill="#7E8798" font-size="10">*requests, not users</tspan></text>
+  </g>
+  <g>
+    <rect x="44" y="212" width="10" height="6" fill="#5A6375" opacity="0.5"/>
+    <rect x="60" y="209" width="10" height="9" fill="#5A6375" opacity="0.5"/>
+    <rect x="76" y="211" width="10" height="7" fill="#5A6375" opacity="0.5"/>
+    <rect x="92" y="207" width="10" height="11" fill="#5A6375" opacity="0.5"/>
+    <rect x="108" y="210" width="10" height="8" fill="#5A6375" opacity="0.5"/>
+    <rect x="124" y="205" width="10" height="13" fill="#5A6375" opacity="0.5"/>
+    <rect x="140" y="208" width="10" height="10" fill="#5A6375" opacity="0.5"/>
+    <rect x="156" y="203" width="10" height="15" fill="#D7FF3F">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>

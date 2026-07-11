@@ -1,15 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="36" viewBox="0 0 880 36" role="img" aria-label="section divider">
-  <line x1="20" y1="18" x2="860" y2="18" stroke="#2a2f45" stroke-width="1"/>
-  <circle cx="220" cy="18" r="2.5" fill="#3b4261"/>
-  <circle cx="440" cy="18" r="3.5" fill="none" stroke="#3b4261" stroke-width="1"/>
-  <circle cx="660" cy="18" r="2.5" fill="#3b4261"/>
-  <circle cy="18" r="7" fill="#25E2F4" fill-opacity="0.16">
-    <animate attributeName="cx" values="20;860" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cy="18" r="3" fill="#25E2F4">
-    <animate attributeName="cx" values="20;860" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cy="18" r="2" fill="#bb9af7" fill-opacity="0.9">
-    <animate attributeName="cx" values="860;20" dur="7s" repeatCount="indefinite"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 36" role="img" aria-label="">
+  <rect width="880" height="36" fill="none"/>
+  <line x1="0" y1="18" x2="880" y2="18" stroke="#232936" stroke-width="1"/>
+  <g stroke="#232936" stroke-width="1">
+    <line x1="110" y1="14" x2="110" y2="22"/>
+    <line x1="330" y1="14" x2="330" y2="22"/>
+    <line x1="550" y1="14" x2="550" y2="22"/>
+    <line x1="770" y1="14" x2="770" y2="22"/>
+  </g>
+  <circle cy="18" r="2.5" fill="#D7FF3F">
+    <animate attributeName="cx" values="0;880" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1" dur="7s" repeatCount="indefinite"/>
   </circle>
 </svg>
