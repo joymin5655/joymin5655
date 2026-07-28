@@ -17,7 +17,7 @@ AI 모델을 "만드는" 데서 멈추지 않고, 안정적으로 **배포·운�
 
 - 🤖 **프로덕션 AI 에이전트** — 대기질 SaaS [**AirLens**](https://airlens.cloud)에 GPT-4o 분석 에이전트(AnalysisEngine)를 제품 기능으로 탑재 · 30일 **55개국 66,307 요청**(사용자 아님) 처리 · 라이브 운영
 - 🧩 **멀티런타임 에이전트 거버넌스** — Claude Code · Codex · Gemini **3개 런타임을 단일 YAML 정책**으로 제어하는 [**Agent**](https://github.com/joymin5655/Agent) 하네스 (다층 시크릿 방어 · 정책 as code)
-- 📈 **ML · 물리 기반 모델링** — GTWR-XGBoost · PINN · **SDID 인과추론** · DINOv2 → ONNX 엣지 추론 · 헬스케어 데이터사이언스 복수전공(**GPA 4.44**) 기반
+- 📈 **ML · 물리 기반 모델링** — GTWR-XGBoost · PINN · **SDID 인과추론** · DINOv2 → ONNX 엣지 추론 · 헬스케어 데이터사이언스 융합전공 기반
 
 > *“Context is the weapon · Defense-in-depth · Distill, don't copy.”*
 > 선언적이고(typed), 감사 가능하며(audit-driven), 증거 우선(evidence-first)으로 일합니다.
@@ -31,7 +31,7 @@ I'm an **AI Agent / Infrastructure Engineer** who designs *how the work happens*
 
 - 🤖 **Production AI agent** — shipped a GPT-4o analysis agent (AnalysisEngine) as a product feature inside [**AirLens**](https://airlens.cloud), a live air-quality SaaS serving **66,307 requests across 55 countries in 30 days** (requests, not users).
 - 🧩 **Multi-runtime agent governance** — [**Agent**](https://github.com/joymin5655/Agent): a harness that controls **Claude Code · Codex · Gemini under one YAML policy**, with portable security hooks and multi-layer secret defense.
-- 📈 **ML & physics-based modeling** — GTWR-XGBoost · PINN · **SDID causal inference** · DINOv2 → ONNX edge inference · grounded in a Healthcare Data Science double major (**GPA 4.44**).
+- 📈 **ML & physics-based modeling** — GTWR-XGBoost · PINN · **SDID causal inference** · DINOv2 → ONNX edge inference · grounded in an interdisciplinary major in Healthcare Data Science.
 
 > *“Context is the weapon · Defense-in-depth · Distill, don't copy.”*
 > I work declaratively (typed), audit-driven, and evidence-first.
@@ -43,7 +43,7 @@ I'm an **AI Agent / Infrastructure Engineer** who designs *how the work happens*
 | 직무 Role | 핵심 증거 Key Evidence |
 |---|---|
 | 🧠 **딥러닝 · ML** | ML 엔진 5종 프로덕션 배포 — XGBoost · DINOv2→ONNX · TFT · PINN · SDID, PyTorch·Optuna·WandB 학습 파이프라인 |
-| 🏥 **의료 AI** | 헬스케어 데이터사이언스 복수전공 **GPA 4.44/4.5** · 정밀의료 메이커톤 사업단장상 · pgvector 하이브리드 RAG |
+| 🏥 **의료 AI** | 헬스케어 데이터사이언스 융합전공 · 정밀의료 메이커톤 사업단장상 · pgvector 하이브리드 RAG |
 | 🤖 **AI-Native · 풀스택** | [AirLens](https://airlens.cloud) 0→1 단독 · 라이브(30일 55개국·66,307 요청, 사용자 아님) · Claude Code 기반 AI-native 개발 파이프라인 · [Agent](https://github.com/joymin5655/Agent) MIT OSS |
 | 📊 **데이터 사이언스** | SDID 인과추론(추정 가능 국가 6→53) · GTWR 지리가중회귀 · 산업경영공학 × 헬스케어DS |
 
@@ -51,7 +51,7 @@ I'm an **AI Agent / Infrastructure Engineer** who designs *how the work happens*
 
 <img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/terminal.svg" width="860" alt="terminal demo — whoami: AI Agent · Infrastructure Engineer / airlens observe 30d: 66,307 requests · 55 countries (requests, not users) · 10 sources · 5 ML engines / agent enforce: 3 runtimes · 17 hooks · 296 blocked · 0 false positives / gitleaks: 1,402 commits scanned · 0 leaks" />
 
-<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/metrics.svg" width="880" alt="핵심 지표: 66,307 요청/30일(사용자 아님) · 55개국 · 296 고위험 차단·오탐 0 · 121 마이그레이션 · 35 Edge Functions · 헬스케어DS GPA 4.44" />
+<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/metrics.svg" width="880" alt="핵심 지표: 66,307 요청/30일(사용자 아님) · 55개국 · 296 고위험 차단·오탐 0 · 121 마이그레이션 · 35 Edge Functions · 데이터 소스 10종 융합" />
 
 <img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/divider.svg" width="880" alt="" />
 
