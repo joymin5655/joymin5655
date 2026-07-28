@@ -53,6 +53,9 @@ I'm an **AI Agent / Infrastructure Engineer** who designs *how the work happens*
 
 <img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/metrics.svg" width="880" alt="핵심 지표: 66,307 요청/30일(사용자 아님) · 55개국 · 296 고위험 차단·오탐 0 · 121 마이그레이션 · 35 Edge Functions · 데이터 소스 10종 융합" />
 
+<!-- 3D contribution calendar — 커밋 수치 노출 예외: 사용자 명시 승인 2026-07-28 (GitHub 네이티브 컨트리뷰션 그래프와 동일 정보) -->
+<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/profile-3d-contrib/profile-night-green.svg" width="880" alt="3D contribution calendar — 최근 1년 커밋 궤적 (일 1회 자동 갱신)" />
+
 <img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/divider.svg" width="880" alt="" />
 
 </div>
