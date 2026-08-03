@@ -13,25 +13,49 @@
 ## 👋 소개 / About
 
 **기능 하나가 아니라, 일하는 방식 전체를 시스템으로 설계하는** AI 에이전트·인프라 엔지니어입니다.
-AI 모델을 "만드는" 데서 멈추지 않고, 안정적으로 **배포·운영·거버넌스**하는 시스템까지 혼자 끝까지 만듭니다.
+**AI 에이전트 팀을 지휘해 혼자서 프로덕션까지 도달시키고**, 배포·운영·거버넌스의 결과를 책임집니다.
 
-- 🤖 **프로덕션 AI 에이전트** — 대기질 SaaS [**AirLens**](https://airlens.cloud)에 GPT-4o 분석 에이전트(AnalysisEngine)를 제품 기능으로 탑재 · 30일 **55개국 66,307 요청**(사용자 아님) 처리 · 라이브 운영
+- 🤖 **프로덕션 AI 에이전트** — 대기질 SaaS [**AirLens**](https://airlens.cloud)에 GPT-4o 분석 에이전트(AnalysisEngine)를 제품 기능으로 탑재 · 30일 **55개국 66,307 요청**(사용자 아님) 처리 · 1인 운영
 - 🧩 **멀티런타임 에이전트 거버넌스** — Claude Code · Codex · Gemini **3개 런타임을 단일 YAML 정책**으로 제어하는 [**Agent**](https://github.com/joymin5655/Agent) 하네스 (다층 시크릿 방어 · 정책 as code)
-- 📈 **ML · 물리 기반 모델링** — GTWR-XGBoost · PINN · **SDID 인과추론** · DINOv2 → ONNX 엣지 추론 · 헬스케어 데이터사이언스 융합전공 기반
+- 📈 **ML · 물리 기반 모델링** — GTWR-XGBoost · PINN · **SDID 인과추론** · DINOv2 → ONNX 엣지 추론 · **방법론 선정과 결과 검증은 직접, 구현은 AI 에이전트 협업** · 헬스케어 데이터사이언스 융합전공 기반
 
 > *“Context is the weapon · Defense-in-depth · Distill, don't copy.”*
 > 선언적이고(typed), 감사 가능하며(audit-driven), 증거 우선(evidence-first)으로 일합니다.
+
+## 🤝 AI와 함께 일하는 방식 / How I Build with AI
+
+이 프로필의 프로젝트들은 **코드 작성의 대부분을 Claude Code 등 AI 에이전트가 수행**했습니다.
+저는 **문제 정의 · 아키텍처 결정 · 검증 기준 설계 · 모든 머지 판단 · 프로덕션 운영과 장애 대응**을 담당합니다.
+그리고 그 협업 방식 자체를 시스템으로 만든 것이 [**Agent**](https://github.com/joymin5655/Agent) 하네스입니다.
+
+- **방향·검증·운영 = 사람** — 무엇을 왜 만들지, 결과를 어떻게 검증할지, 프로덕션 사고의 최종 책임
+- **코드 작성의 대부분 = AI 에이전트** — 구현·리팩토링·테스트·문서 초안
+- **모든 머지와 보안 게이트 = 사람의 결정** — AI 산출물은 기계 게이트(gitleaks · 정책 훅)와 사람 리뷰를 통과해야 main에 도달
 
 <details>
 <summary>🇺🇸 <b>Read in English</b></summary>
 
 <br>
 
-I'm an **AI Agent / Infrastructure Engineer** who designs *how the work happens* — not just a single feature, but the whole system around it. I don't stop at building AI models; I take them all the way to **stable deployment, operation, and governance**, end to end and solo.
+Most of the code in these projects was **written by AI agents (Claude Code and others)**.
+My work is **problem definition, architecture decisions, verification design, every merge decision, and production operations** — and I built that collaboration itself into a system: the [**Agent**](https://github.com/joymin5655/Agent) harness.
 
-- 🤖 **Production AI agent** — shipped a GPT-4o analysis agent (AnalysisEngine) as a product feature inside [**AirLens**](https://airlens.cloud), a live air-quality SaaS serving **66,307 requests across 55 countries in 30 days** (requests, not users).
+- **Direction, verification, operations = human** — what to build and why, how results get validated, final accountability for production incidents
+- **Most code authorship = AI agents** — implementation, refactoring, tests, doc drafts
+- **Every merge and security gate = a human decision** — AI output must pass machine gates (gitleaks · policy hooks) and human review before reaching main
+
+</details>
+
+<details>
+<summary>🇺🇸 <b>Read in English</b></summary>
+
+<br>
+
+I'm an **AI Agent / Infrastructure Engineer** who designs *how the work happens* — not just a single feature, but the whole system around it. I **direct a team of AI agents to reach production solo**, and I own the results: deployment, operations, and governance.
+
+- 🤖 **Production AI agent** — shipped a GPT-4o analysis agent (AnalysisEngine) as a product feature inside [**AirLens**](https://airlens.cloud), a live air-quality SaaS serving **66,307 requests across 55 countries in 30 days** (requests, not users), operated single-handedly.
 - 🧩 **Multi-runtime agent governance** — [**Agent**](https://github.com/joymin5655/Agent): a harness that controls **Claude Code · Codex · Gemini under one YAML policy**, with portable security hooks and multi-layer secret defense.
-- 📈 **ML & physics-based modeling** — GTWR-XGBoost · PINN · **SDID causal inference** · DINOv2 → ONNX edge inference · grounded in an interdisciplinary major in Healthcare Data Science.
+- 📈 **ML & physics-based modeling** — GTWR-XGBoost · PINN · **SDID causal inference** · DINOv2 → ONNX edge inference · **methodology choices and result validation are mine; implementation is AI-agent collaboration** · grounded in an interdisciplinary major in Healthcare Data Science.
 
 > *“Context is the weapon · Defense-in-depth · Distill, don't copy.”*
 > I work declaratively (typed), audit-driven, and evidence-first.
@@ -42,9 +66,9 @@ I'm an **AI Agent / Infrastructure Engineer** who designs *how the work happens*
 
 | 직무 Role | 핵심 증거 Key Evidence |
 |---|---|
-| 🧠 **딥러닝 · ML** | ML 엔진 5종 프로덕션 배포 — XGBoost · DINOv2→ONNX · TFT · PINN · SDID, PyTorch·Optuna·WandB 학습 파이프라인 |
+| 🧠 **딥러닝 · ML** | ML 엔진 5종 프로덕션 배포 — XGBoost · DINOv2→ONNX · TFT · PINN · SDID (방법론 선정·검증 직접, 구현은 AI 에이전트 협업), PyTorch·Optuna·WandB 학습 파이프라인 |
 | 🏥 **의료 AI** | 헬스케어 데이터사이언스 융합전공 · 정밀의료 메이커톤 사업단장상 · pgvector 하이브리드 RAG |
-| 🤖 **AI-Native · 풀스택** | [AirLens](https://airlens.cloud) 0→1 단독 · 라이브(30일 55개국·66,307 요청, 사용자 아님) · Claude Code 기반 AI-native 개발 파이프라인 · [Agent](https://github.com/joymin5655/Agent) MIT OSS |
+| 🤖 **AI-Native · 풀스택** | [AirLens](https://airlens.cloud) 0→1 — AI 에이전트 협업 · 1인 책임·운영 라이브(30일 55개국·66,307 요청, 사용자 아님) · Claude Code 기반 AI-native 개발 파이프라인 · [Agent](https://github.com/joymin5655/Agent) MIT OSS |
 | 📊 **데이터 사이언스** | SDID 인과추론(추정 가능 국가 6→53) · GTWR 지리가중회귀 · 산업경영공학 × 헬스케어DS |
 
 <div align="center">
@@ -64,7 +88,7 @@ I'm an **AI Agent / Infrastructure Engineer** who designs *how the work happens*
 
 <div align="center">
 
-<a href="https://github.com/joymin5655/AirLens"><img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/card-airlens.svg" width="430" alt="AirLens — 대기질 인텔리전스 SaaS · 단독 개발 · LIVE. 55 countries · 66,307 req/30d (requests, not users) · 10 sources · 5 ML engines · GPT-4o agent. GPT-4o / FastAPI / Supabase / React 19 / ONNX" /></a>&nbsp;<a href="https://github.com/joymin5655/Agent"><img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/card-agent.svg" width="430" alt="Agent — 멀티런타임 거버넌스 하네스 · MIT OSS. Claude Code · Codex · Gemini를 단일 YAML 정책으로 통제. 296 blocked · 0 false positives · 17 hooks · blind benchmark 8/8. Policy-as-Code / gitleaks / Claude Code Plugin" /></a>
+<a href="https://github.com/joymin5655/AirLens"><img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/card-airlens.svg" width="430" alt="AirLens — 대기질 인텔리전스 SaaS · AI 에이전트 협업 · 1인 책임·운영 · LIVE. 55 countries · 66,307 req/30d (requests, not users) · 10 sources · 5 ML engines · GPT-4o agent. GPT-4o / FastAPI / Supabase / React 19 / ONNX" /></a>&nbsp;<a href="https://github.com/joymin5655/Agent"><img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/card-agent.svg" width="430" alt="Agent — 멀티런타임 거버넌스 하네스 · MIT OSS. Claude Code · Codex · Gemini를 단일 YAML 정책으로 통제. 296 blocked · 0 false positives · 17 hooks · blind benchmark 8/8. Policy-as-Code / gitleaks / Claude Code Plugin" /></a>
 
 </div>
 
