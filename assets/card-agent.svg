@@ -3,9 +3,20 @@
     <style>
       .sans{font-family:-apple-system,'Segoe UI','Pretendard',sans-serif}
       .mono{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+      @media (prefers-reduced-motion: reduce){*{animation:none !important}}
     </style>
+    <filter id="glowAG" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
   <rect width="430" height="210" rx="12" fill="#0A0C10" stroke="#232936"/>
+  <circle cx="402" cy="36" r="66" fill="#39FF88" opacity="0.05" filter="url(#glowAG)">
+    <animate attributeName="opacity" values="0.03;0.11;0.03" dur="6.5s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4.5" fill="#39FF88" filter="url(#glowAG)" opacity="0.85">
+    <animateMotion dur="9s" begin="1.2s" repeatCount="indefinite" path="M12,1 H418 A11,11 0 0 1 429,12 V198 A11,11 0 0 1 418,209 H12 A11,11 0 0 1 1,198 V12 A11,11 0 0 1 12,1 Z"/>
+  </circle>
   <g class="mono">
     <circle cx="26" cy="30" r="3.5" fill="#D7FF3F"/>
     <text x="38" y="34" font-size="10" fill="#9DBD2A" letter-spacing="1">MIT OSS</text>

@@ -1,4 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 36" role="img" aria-label="">
+  <defs>
+    <style>
+      @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+    </style>
+  </defs>
   <rect width="880" height="36" fill="none"/>
   <line x1="0" y1="18" x2="880" y2="18" stroke="#232936" stroke-width="1"/>
   <g stroke="#232936" stroke-width="1">
@@ -10,5 +15,13 @@
   <circle cy="18" r="2.5" fill="#D7FF3F">
     <animate attributeName="cx" values="0;880" dur="7s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cy="16.5" r="1.6" fill="#43D9AD">
+    <animate attributeName="cx" values="0;880" dur="9.4s" begin="2.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.1;0.9;1" dur="9.4s" begin="2.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cy="19.5" r="1.3" fill="#D7FF3F">
+    <animate attributeName="cx" values="0;880" dur="6.2s" begin="4.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.12;0.88;1" dur="6.2s" begin="4.6s" repeatCount="indefinite"/>
   </circle>
 </svg>
