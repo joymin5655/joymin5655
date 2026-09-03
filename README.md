@@ -1,168 +1,225 @@
-<div align="center">
+<!--
+  joymin5655 · profile README — plain-text terminal edition (2026-09-03)
+  · No emoji, no badges. One animated SVG at the top (assets/terminal-banner.svg —
+    SMIL typing, regenerate with scripts/gen-banner.py); everything else is a fenced
+    code block so it renders identically in light/dark mode and in any client.
+  · Every number below is measured and traceable (SSOT: 취업/master/session_summary_report.md).
+    Traffic = requests, never users. No commit counts on screen.
+  · Lines that contain Korean have no right-hand border — CJK glyph width is
+    not stable across monospace fonts, so boxes are left-anchored only.
+-->
 
-<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/hero.svg" width="880" alt="조용민 Yongmin Cho — AI를 프로덕션까지 도달시키는 엔지니어. LIVE airlens.cloud · 66,307 요청/30일·55개국(요청 기준) · 296 차단·오탐 0 · 121 마이그레이션" />
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=joymin5655&style=for-the-badge&color=9DBD2A&label=PROFILE+VIEWS" alt="profile views" />
-  <a href="https://airlens.cloud"><img src="https://img.shields.io/badge/Live-airlens.cloud-D7FF3F?style=for-the-badge&logo=googlechrome&logoColor=black" alt="airlens.cloud" /></a>
-  <a href="https://joymin5655.github.io"><img src="https://img.shields.io/badge/Portfolio-joymin5655.github.io-0A0C10?style=for-the-badge&logo=github&logoColor=white" alt="portfolio" /></a>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/terminal-banner.svg" width="880" alt="Terminal: whoami — Yongmin Cho, AI Agent · Infrastructure Engineer. airlens status: 66,307 requests, 55 countries, 10 sources, 5 ML engines. agent enforce: 3 runtimes, 17 hooks, 296 blocked, 0 false positives, blind benchmark 8/8. What I don't measure, I don't claim." />
 </p>
 
-</div>
+```text
+██╗   ██╗ ██████╗ ███╗   ██╗ ██████╗ ███╗   ███╗██╗███╗   ██╗        ██████╗██╗  ██╗ ██████╗
+╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝ ████╗ ████║██║████╗  ██║       ██╔════╝██║  ██║██╔═══██╗
+ ╚████╔╝ ██║   ██║██╔██╗ ██║██║  ███╗██╔████╔██║██║██╔██╗ ██║       ██║     ███████║██║   ██║
+  ╚██╔╝  ██║   ██║██║╚██╗██║██║   ██║██║╚██╔╝██║██║██║╚██╗██║       ██║     ██╔══██║██║   ██║
+   ██║   ╚██████╔╝██║ ╚████║╚██████╔╝██║ ╚═╝ ██║██║██║ ╚████║       ╚██████╗██║  ██║╚██████╔╝
+   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝        ╚═════╝╚═╝  ╚═╝ ╚═════╝
 
-## 👋 소개 / About
+  AI Agent · Infrastructure Engineer                 ships AI to production — solo, governed
+  ─────────────────────────────────────────────────────────────────────────────────────────
+  LIVE  https://airlens.cloud        PORTFOLIO  https://joymin5655.github.io        KR / EN
+```
 
-**기능 하나가 아니라, 일하는 방식 전체를 시스템으로 설계하는** AI 에이전트·인프라 엔지니어입니다.
-**AI 에이전트 팀을 지휘해 혼자서 프로덕션까지 도달시키고**, 배포·운영·거버넌스의 결과를 책임집니다.
+```text
+$ whoami
+```
 
-- 🤖 **프로덕션 AI 에이전트** — 대기질 SaaS [**AirLens**](https://airlens.cloud)에 GPT-4o 분석 에이전트(AnalysisEngine)를 제품 기능으로 탑재 · 30일 **55개국 66,307 요청**(사용자 아님) 처리 · 1인 운영
-- 🧩 **멀티런타임 에이전트 거버넌스** — Claude Code · Codex · Gemini **3개 런타임을 단일 YAML 정책**으로 제어하는 [**Agent**](https://github.com/joymin5655/Agent) 하네스 (다층 시크릿 방어 · 정책 as code)
-- 📈 **ML · 물리 기반 모델링** — GTWR-XGBoost · PINN · **SDID 인과추론** · DINOv2 → ONNX 엣지 추론 · **방법론 선정과 결과 검증은 직접, 구현은 AI 에이전트 협업** · 헬스케어 데이터사이언스 융합전공 기반
+```text
+조용민 (Yongmin Cho) — AI를 프로덕션까지 도달시키는 엔지니어.
 
-> *“Context is the weapon · Defense-in-depth · Distill, don't copy.”*
-> 선언적이고(typed), 감사 가능하며(audit-driven), 증거 우선(evidence-first)으로 일합니다.
+기능 하나가 아니라 "일하는 방식 전체"를 시스템으로 설계합니다.
+AI 에이전트 팀을 지휘해 혼자서 기획 → 모델 → 인프라 → 배포 → 운영까지 가고,
+그 결과(배포·운영·거버넌스)를 책임집니다.
 
-## 🤝 AI와 함께 일하는 방식 / How I Build with AI
+  · 방향 · 검증 · 운영 ................ 사람 (저)
+  · 코드 작성의 대부분 ................ AI 에이전트 (Claude Code 등)
+  · 모든 머지와 보안 게이트 ........... 사람의 결정 — 기계 게이트(gitleaks · 정책 훅) 통과 후
 
-이 프로필의 프로젝트들은 **코드 작성의 대부분을 Claude Code 등 AI 에이전트가 수행**했습니다.
-저는 **문제 정의 · 아키텍처 결정 · 검증 기준 설계 · 모든 머지 판단 · 프로덕션 운영과 장애 대응**을 담당합니다.
-그리고 그 협업 방식 자체를 시스템으로 만든 것이 [**Agent**](https://github.com/joymin5655/Agent) 하네스입니다.
+  "Context is the weapon · Defense-in-depth · Distill, don't copy."
+```
 
-- **방향·검증·운영 = 사람** — 무엇을 왜 만들지, 결과를 어떻게 검증할지, 프로덕션 사고의 최종 책임
-- **코드 작성의 대부분 = AI 에이전트** — 구현·리팩토링·테스트·문서 초안
-- **모든 머지와 보안 게이트 = 사람의 결정** — AI 산출물은 기계 게이트(gitleaks · 정책 훅)와 사람 리뷰를 통과해야 main에 도달
+```text
+$ airlens status --window 30d
+```
 
-<details>
-<summary>🇺🇸 <b>Read in English</b></summary>
+```text
+┌─ airlens.cloud ──────────────────────────────────────────────────────────────┐
+│  STATUS        LIVE · single-operator · AI-agent-built                       │
+│  REQUESTS      66,307  / 30 days   (requests — not users)                    │
+│  COUNTRIES     55                                                            │
+│  DATA SOURCES  10      MAIAC · FIRMS · Sentinel-5P · AERONET · ERA5 · CAMS   │
+│                        AirKorea · Open-Meteo · EDGAR · WorldBank             │
+│  ML ENGINES    5       DQSS · AOD-XGBoost · SDID · DINOv2-ONNX · TFT         │
+│  AGENT         GPT-4o AnalysisEngine — natural language → pandas/plotly      │
+│  DATABASE      Supabase Postgres · 121 migrations · RLS · pgvector RAG       │
+│  EDGE          35 Edge Functions · 41 GitHub Actions pipelines               │
+│  OBSERVABILITY Sentry · PostHog · Prometheus                                 │
+└──────────────────────────────────────────────────────────────────────────────┘
 
-<br>
+  SDID causal inference   estimable countries      6 ──▶ 53
+  RLS lint cleanup        multiple_permissive     132 ──▶ 6    (no access change)
+  RAG quality (RAGAS)     faithfulness           0.958   answer relevancy 0.938
+  Sky segmentation        mIoU                   91.5%   boundary F1 87.6%
+  Camera PM2.5 (ordinal)  exact 57.9%  ·  within-one-band 92.9%
+```
 
-Most of the code in these projects was **written by AI agents (Claude Code and others)**.
-My work is **problem definition, architecture decisions, verification design, every merge decision, and production operations** — and I built that collaboration itself into a system: the [**Agent**](https://github.com/joymin5655/Agent) harness.
+```text
+$ agent enforce --stats
+```
 
-- **Direction, verification, operations = human** — what to build and why, how results get validated, final accountability for production incidents
-- **Most code authorship = AI agents** — implementation, refactoring, tests, doc drafts
-- **Every merge and security gate = a human decision** — AI output must pass machine gates (gitleaks · policy hooks) and human review before reaching main
+```text
+┌─ github.com/joymin5655/Agent ────────────────────────── MIT · Claude Code plugin ─┐
+│  RUNTIMES        3     Claude Code · Codex · Gemini  — one YAML policy            │
+│  HOOKS          17     portable, vendor-neutral                                   │
+│  BLOCKED       296     high-risk ops denied in production repos                   │
+│  FALSE POS       0                                                                │
+│  BLIND BENCH   8/8     seeded bugs caught                                         │
+│  SECRETS         0     gitleaks full-history scan · pre-commit · pre-push · CI    │
+└───────────────────────────────────────────────────────────────────────────────────┘
 
-</details>
+  plan-approved edit ............................................ PASS
+  read-only reviewer ............................................ PASS
+  git reset --hard .............................................. DENIED
+  secret file read .............................................. DENIED
+```
 
-<details>
-<summary>🇺🇸 <b>Read in English</b></summary>
+```text
+$ ls -la ~/projects
+```
 
-<br>
+```text
+projects/
+├── AirLens/          대기질 인텔리전스 SaaS · LIVE · 1인 책임·운영
+│   ├── data/         위성·지상·기상 10개 소스 융합 파이프라인
+│   ├── ml/           GTWR-XGBoost · PINN · SDID · TFT · DINOv2→ONNX · quantile
+│   ├── agent/        GPT-4o AnalysisEngine · pgvector hybrid RAG (BM25+vector+RRF)
+│   ├── web/          React 19 · Vite · Three.js 3D globe · KO/EN
+│   └── infra/        FastAPI · Supabase · Docker · GitHub Actions · Cloudflare Pages
+│                     → https://airlens.cloud   ·   github.com/joymin5655/AirLens
+│
+├── Agent/            멀티런타임 거버넌스 하네스 · Policy-as-Code · MIT OSS
+│                     → github.com/joymin5655/Agent
+│
+├── posture-guard/    바른자세 지킴이 — KT AIVLE 빅프로젝트 · 6인 팀 · FE ~80% 주도
+│                     2026: 서버 없이 브라우저 ONNX로 재점화 · 원본 대비 오차 0.000005
+│                     → Collaboration상 (KT × 고용노동부) · joymin5655.github.io/projects/posture
+│
+├── pitter-petter/    반려견 WGS 파이프라인 — 단독 · 계산/추론 플레인 분리 · 사전등록 측정
+│                     8/8 라이프사이클 실측 · Jaccard 0.3677 · FAIL도 그대로 보고
+│                     → joymin5655.github.io/projects/pitter
+│
+├── second-brain/     타입드 지식 그래프 268노드 · 890 edge · lint 0 · 3D 뉴런 뷰 4,985노드
+│                     → joymin5655.github.io/projects/brain
+│
+└── craft/            FABLE 65p 디자인 쇼케이스 · ALL-IN-ONE IA 재설계 · Wardenkit
+                      → fable-collection.netlify.app · joymin5655.github.io/projects/craft
+```
 
-I'm an **AI Agent / Infrastructure Engineer** who designs *how the work happens* — not just a single feature, but the whole system around it. I **direct a team of AI agents to reach production solo**, and I own the results: deployment, operations, and governance.
+```text
+$ cat field-notes.txt        # 실측으로 배운 것
+```
 
-- 🤖 **Production AI agent** — shipped a GPT-4o analysis agent (AnalysisEngine) as a product feature inside [**AirLens**](https://airlens.cloud), a live air-quality SaaS serving **66,307 requests across 55 countries in 30 days** (requests, not users), operated single-handedly.
-- 🧩 **Multi-runtime agent governance** — [**Agent**](https://github.com/joymin5655/Agent): a harness that controls **Claude Code · Codex · Gemini under one YAML policy**, with portable security hooks and multi-layer secret defense.
-- 📈 **ML & physics-based modeling** — GTWR-XGBoost · PINN · **SDID causal inference** · DINOv2 → ONNX edge inference · **methodology choices and result validation are mine; implementation is AI-agent collaboration** · grounded in an interdisciplinary major in Healthcare Data Science.
+```text
+01  통과 지표를 잘못 고르면 불량이 그대로 통과한다
+    LLM 조언 생성물 게이트 — 금지어 0% · 페르소나 일관성 100% · 파싱 실패 0% 전부 PASS.
+    "가이드라인 충실도"를 LLM judge로 추가하자 65.6% → 전체 판정 FAIL로 뒤집혔다.
 
-> *“Context is the weapon · Defense-in-depth · Distill, don't copy.”*
-> I work declaratively (typed), audit-driven, and evidence-first.
+02  총계는 위험 구간을 가린다
+    PM2.5 예측구간 커버리지(PICP@80) 전체 93% — 고농도(≥150) 구간에선 14%.
+    관측소 단위 leave-station-out 교차검증으로 구간별 실측을 파일에 남겼다.
 
-</details>
+03  개선이 없었던 실험도 기록한다
+    RAG 리랭커 on/off A/B — answer relevancy −0.0014. "효과 없음"을 그대로 커밋.
 
-## 🎯 역할별 하이라이트 / By Role
+04  측정 도구부터 검증한다
+    WebGL 캔버스 캡처 경로 3개가 전부 낡은 픽셀을 돌려줘 오진 3회.
+    측정을 고치자 실제 결함 2개가 드러났다. "구성으로 검증됨"은 검증이 아니다.
+```
 
-| 직무 Role | 핵심 증거 Key Evidence |
-|---|---|
-| 🧠 **딥러닝 · ML** | ML 엔진 5종 프로덕션 배포 — XGBoost · DINOv2→ONNX · TFT · PINN · SDID (방법론 선정·검증 직접, 구현은 AI 에이전트 협업), PyTorch·Optuna·WandB 학습 파이프라인 |
-| 🏥 **의료 AI** | 헬스케어 데이터사이언스 융합전공 · 정밀의료 메이커톤 사업단장상 · pgvector 하이브리드 RAG |
-| 🤖 **AI-Native · 풀스택** | [AirLens](https://airlens.cloud) 0→1 — AI 에이전트 협업 · 1인 책임·운영 라이브(30일 55개국·66,307 요청, 사용자 아님) · Claude Code 기반 AI-native 개발 파이프라인 · [Agent](https://github.com/joymin5655/Agent) MIT OSS |
-| 📊 **데이터 사이언스** | SDID 인과추론(추정 가능 국가 6→53) · GTWR 지리가중회귀 · 산업경영공학 × 헬스케어DS |
+```text
+$ history --experience
+```
 
-<div align="center">
+```text
+2026.03 ─ now   AirLens 제품 개발 · Agent 하네스              1인 책임 · AI 에이전트 협업
+                캡스톤 대기질 연구를 상용 SaaS로 고도화. GPT-4o 에이전트 탑재,
+                30일 55개국 66,307 요청(사용자 아님) 처리. 거버넌스 하네스 병행 운영.
 
-<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/terminal.svg" width="860" alt="terminal demo — whoami: AI Agent · Infrastructure Engineer / airlens observe 30d: 66,307 requests · 55 countries (requests, not users) · 10 sources · 5 ML engines / agent enforce: 3 runtimes · 17 hooks · 296 blocked · 0 false positives / gitleaks: 1,402 commits scanned · 0 leaks" />
+2025           Sigma · Welodata (Google 협력사)               AI 데이터 QA · 평가 (~8개월)
+                한영 오디오 전사·언어 QA (SOW 7건) · 광고·검색 적합성 평가 Tier 1·2.
+                평가 기준 V5→V6 개정 대응 — 인간-AI 피드백 루프의 "기준" 쪽 경험.
 
-<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/metrics.svg" width="880" alt="핵심 지표: 66,307 요청/30일(사용자 아님) · 55개국 · 296 고위험 차단·오탐 0 · 121 마이그레이션 · 35 Edge Functions · 데이터 소스 10종 융합" />
+2024.07 ─ 25.01 에듀인소프트                                  교육 운영 · 기획
+                SQLD·ADsP 자격증 과정 운영·담당(대학생 ~30명), 진도·정산 행정, 과정 제안 보조.
 
-<!-- 3D contribution calendar — 커밋 수치 노출 예외: 사용자 명시 승인 2026-07-28 (GitHub 네이티브 컨트리뷰션 그래프와 동일 정보) -->
-<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/profile-3d-contrib/profile-night-green.svg" width="880" alt="3D contribution calendar — 최근 1년 커밋 궤적 (일 1회 자동 갱신)" />
+2023.08 ─ 24.01 KT AIVLE School · AI 개발자 트랙 (840h)       빅프로젝트 Collaboration상
+                프론트엔드 ~80% 주도. 마지막 배포 단계에서 실패 —
+                "아무리 좋은 모델도 배포되지 않으면 의미가 없다" → 인프라·CI/CD로 방향 전환.
 
-<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/divider.svg" width="880" alt="" />
+2023.01 ─ 05   로지체인                                       기획 인턴
+                온디바이스 AI·비전 분석 솔루션 신규 사업 제안서 5건. 구조·시각 개선 제안이
+                채택되어 제안 통과에 기여. 기획만으로는 닿지 못하는 "구현"의 벽을 느낀 시점.
 
-</div>
+2018.03 ─ 12   자율주행 인지 데이터 구축                         GT 바운딩박스 라벨링 (~10개월)
+                보행자·차량·도로시설물 클래스 · 발주처 입력 기준 준수 · 차수별 납품·검수.
 
-## 📌 대표 프로젝트 / Featured Projects
+────────────────────────────────────────────────────────────────────────────────
+EDU   강릉원주대학교 — 산업경영공학 (주전공) · 헬스케어 데이터사이언스 (융합전공)
+      졸업논문 「미세먼지 저감 정책의 효과 분석: 중국과 한국의 비교 분석」
+AWARD KT AIVLE 빅프로젝트 Collaboration상 · 정밀의료 메이커톤 사업단장상 (강원지역혁신플랫폼)
+      미래내일 일경험 최우수상
+CERT  Microsoft Azure AI Fundamentals (AI-900) · 6시그마 GB
+```
 
-<div align="center">
+```text
+$ cat stack.txt
+```
 
-<a href="https://github.com/joymin5655/AirLens"><img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/card-airlens.svg" width="430" alt="AirLens — 대기질 인텔리전스 SaaS · AI 에이전트 협업 · 1인 책임·운영 · LIVE. 55 countries · 66,307 req/30d (requests, not users) · 10 sources · 5 ML engines · GPT-4o agent. GPT-4o / FastAPI / Supabase / React 19 / ONNX" /></a>&nbsp;<a href="https://github.com/joymin5655/Agent"><img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/card-agent.svg" width="430" alt="Agent — 멀티런타임 거버넌스 하네스 · MIT OSS. Claude Code · Codex · Gemini를 단일 YAML 정책으로 통제. 296 blocked · 0 false positives · 17 hooks · blind benchmark 8/8. Policy-as-Code / gitleaks / Claude Code Plugin" /></a>
+```text
+LANG      Python · TypeScript · SQL
+AI/AGENT  OpenAI GPT-4o · Anthropic Claude · Model Context Protocol · LangChain · RAG
+ML        PyTorch · scikit-learn · XGBoost · ONNX · GTWR · PINN · SDID · TFT
+BACKEND   FastAPI · Supabase (Postgres · RLS · pgvector · Edge Functions) · Redis · Docker
+INFRA     GitHub Actions · Cloudflare Pages · Sentry · PostHog · Prometheus · gitleaks
+FRONTEND  React 19 · Vite · Three.js · Astro
+```
 
-</div>
+```text
+$ cat README.en
+```
 
-> 🔗 케이스 스터디 포함 전체 포트폴리오 / Full portfolio with case studies → **[joymin5655.github.io](https://joymin5655.github.io)**
+```text
+Yongmin Cho — AI Agent / Infrastructure Engineer. I ship AI to production, solo, with governance.
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/divider.svg" width="880" alt="" />
-</div>
+I design how the work happens, not just one feature. I direct a team of AI agents from
+plan to model to infra to deploy to ops, and I own the outcome.
 
-## 🛠️ 기술 스택 / Tech Stack
+  AirLens   live air-quality SaaS — 66,307 requests across 55 countries in 30 days
+            (requests, not users). 10 data sources, 5 ML engines, GPT-4o analysis agent,
+            121 DB migrations, 35 edge functions. Built with AI agents, operated by one person.
+  Agent     multi-runtime governance harness (Claude Code · Codex · Gemini, one YAML policy).
+            296 high-risk ops blocked, 0 false positives, 8/8 blind benchmark. MIT.
 
-**AI / Agent**
+  Most code in these repos was written by AI agents. Problem definition, architecture,
+  verification design, every merge decision and production operations are mine.
+```
 
-![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-1F1F1F?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+```text
+$ contact --open
+```
 
-**Backend / Infra**
+```text
+EMAIL      joymin5655@gmail.com
+GITHUB     https://github.com/joymin5655
+PORTFOLIO  https://joymin5655.github.io        (6 case studies · KO/EN)
+RESEARCH   https://joymin5655.github.io/research   (interests · methods · thesis)
+LIVE       https://airlens.cloud
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
-![PostHog](https://img.shields.io/badge/PostHog-1D4AFF?style=for-the-badge&logo=posthog&logoColor=white)
-
-**ML / Data**
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-006ACC?style=for-the-badge)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/divider.svg" width="880" alt="" />
-</div>
-
-## 📊 언어 분포 / Languages
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joymin5655&layout=compact&theme=dark&bg_color=0A0C10&title_color=D7FF3F&text_color=8A93A6&hide_border=true&langs_count=8" alt="top langs" />
-
-</div>
-
----
-
-## 📫 연락처 / Contact
-
-<div align="center">
-
-<a href="mailto:joymin5655@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
-<a href="https://github.com/joymin5655"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
-<a href="https://joymin5655.github.io"><img src="https://img.shields.io/badge/Portfolio-0A0C10?style=for-the-badge&logo=githubpages&logoColor=white" alt="portfolio" /></a>
-<a href="https://airlens.cloud"><img src="https://img.shields.io/badge/AirLens-D7FF3F?style=for-the-badge&logo=icloud&logoColor=black" alt="airlens" /></a>
-
-<img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/divider.svg" width="880" alt="" />
-
-</div>
+$ _
+```
