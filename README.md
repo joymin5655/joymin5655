@@ -1,3 +1,16 @@
+```text
+██╗   ██╗ ██████╗ ███╗   ██╗ ██████╗ ███╗   ███╗██╗███╗   ██╗        ██████╗██╗  ██╗ ██████╗
+╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝ ████╗ ████║██║████╗  ██║       ██╔════╝██║  ██║██╔═══██╗
+ ╚████╔╝ ██║   ██║██╔██╗ ██║██║  ███╗██╔████╔██║██║██╔██╗ ██║       ██║     ███████║██║   ██║
+  ╚██╔╝  ██║   ██║██║╚██╗██║██║   ██║██║╚██╔╝██║██║██║╚██╗██║       ██║     ██╔══██║██║   ██║
+   ██║   ╚██████╔╝██║ ╚████║╚██████╔╝██║ ╚═╝ ██║██║██║ ╚████║       ╚██████╗██║  ██║╚██████╔╝
+   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝        ╚═════╝╚═╝  ╚═╝ ╚═════╝
+
+  AI Agent · Infrastructure Engineer                 ships AI to production, solo, governed
+  ─────────────────────────────────────────────────────────────────────────────────────────
+  LIVE  https://airlens.cloud        PORTFOLIO  https://joymin5655.github.io        KR / EN
+```
+
 <!--
   joymin5655 · profile README (2026-09-04)
   Rule: show the one thing that matters and get out of the way. Résumé content,
@@ -11,19 +24,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/joymin5655/joymin5655/main/assets/terminal-banner.svg" width="880" alt="Terminal: whoami, Yongmin Cho, AI Agent and Infrastructure Engineer. airlens status: 66,307 requests, 55 countries, 10 sources, 5 ML engines. agent enforce: 3 runtimes, 17 hooks, 296 blocked, 0 false positives, blind benchmark 8/8. What I don't measure, I don't claim." />
 </p>
-
-```text
-██╗   ██╗ ██████╗ ███╗   ██╗ ██████╗ ███╗   ███╗██╗███╗   ██╗        ██████╗██╗  ██╗ ██████╗
-╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝ ████╗ ████║██║████╗  ██║       ██╔════╝██║  ██║██╔═══██╗
- ╚████╔╝ ██║   ██║██╔██╗ ██║██║  ███╗██╔████╔██║██║██╔██╗ ██║       ██║     ███████║██║   ██║
-  ╚██╔╝  ██║   ██║██║╚██╗██║██║   ██║██║╚██╔╝██║██║██║╚██╗██║       ██║     ██╔══██║██║   ██║
-   ██║   ╚██████╔╝██║ ╚████║╚██████╔╝██║ ╚═╝ ██║██║██║ ╚████║       ╚██████╗██║  ██║╚██████╔╝
-   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝        ╚═════╝╚═╝  ╚═╝ ╚═════╝
-
-  AI Agent · Infrastructure Engineer                 ships AI to production, solo, governed
-  ─────────────────────────────────────────────────────────────────────────────────────────
-  LIVE  https://airlens.cloud        PORTFOLIO  https://joymin5655.github.io        KR / EN
-```
 
 ```text
 $ whoami
