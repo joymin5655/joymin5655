@@ -15,7 +15,7 @@
   joymin5655 · profile README (2026-09-04)
   Rule: show the one thing that matters and get out of the way. Résumé content,
   stack lists, timelines and case studies live on the portfolio, not here.
-  Numbers are measured (SSOT: 취업/master/session_summary_report.md);
+  Numbers are measured against a local, private source-of-truth document;
   traffic = requests, never users; no commit counts.
   Banner = assets/terminal-banner.svg (SMIL typing, regenerate with scripts/gen-banner.py).
   Lines containing Korean carry no right-hand border (CJK glyph width varies by font).
