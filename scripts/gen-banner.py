@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate assets/terminal-banner.svg — a declarative SMIL "typing" terminal.
+"""Generate assets/terminal-banner.svg · a declarative SMIL "typing" terminal.
 
 No JS, no CSS classes (GitHub strips both from README-embedded SVG); typing is a
 per-line clipPath whose width steps one glyph at a time. Edit LINES, run, commit.
@@ -12,7 +12,7 @@ LH = 26
 X0, Y0 = 28, 78
 LINES = [
     ("cmd", "$ whoami"),
-    ("out", "Yongmin Cho  —  AI Agent · Infrastructure Engineer · ships AI to production, solo, governed"),
+    ("out", "Yongmin Cho · AI Agent & Infrastructure Engineer · ships AI to production, solo, governed"),
     ("cmd", "$ airlens status --window 30d"),
     ("out", "LIVE  airlens.cloud   66,307 requests · 55 countries · 10 sources · 5 ML engines · GPT-4o agent"),
     ("cmd", "$ agent enforce --stats"),
@@ -55,14 +55,14 @@ final_prompt = f'<text x="{X0}" y="{yf}" fill="#e6edf3" opacity="0" xml:space="p
 
 label = " ".join(l for _, l in LINES)
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(label)}">
-  <title>joymin5655 — terminal</title>
+  <title>joymin5655 · terminal</title>
   <defs>{"".join(defs)}</defs>
   <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="10" fill="#0a0c10" stroke="#232936"/>
   <rect x="0.5" y="0.5" width="{W-1}" height="38" rx="10" fill="#12151c"/>
   <rect x="0.5" y="20" width="{W-1}" height="19" fill="#12151c"/>
   <line x1="0.5" y1="38.5" x2="{W-0.5}" y2="38.5" stroke="#232936"/>
   <circle cx="20" cy="19.5" r="5.5" fill="#ff5f57"/><circle cx="38" cy="19.5" r="5.5" fill="#febc2e"/><circle cx="56" cy="19.5" r="5.5" fill="#28c840"/>
-  <text x="{W/2}" y="24" text-anchor="middle" fill="#7e8798" font-family="{MONO}" font-size="11" letter-spacing="0.12em">joymin5655 — zsh — 110×24</text>
+  <text x="{W/2}" y="24" text-anchor="middle" fill="#7e8798" font-family="{MONO}" font-size="11" letter-spacing="0.12em">joymin5655 · zsh · 110×24</text>
   <g font-family="{MONO}" font-size="14">
     {"".join(parts)}
     {final_prompt}
