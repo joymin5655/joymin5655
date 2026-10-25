@@ -13,10 +13,10 @@ X0, Y0 = 28, 78
 LINES = [
     ("cmd", "$ whoami"),
     ("out", "Yongmin Cho · AI Agent & Infrastructure Engineer · ships AI to production, solo, governed"),
-    ("cmd", "$ airlens status --window 30d"),
-    ("out", "LIVE  airlens.cloud   66,307 requests · 55 countries · 10 sources · 5 ML engines · GPT-4o agent"),
-    ("cmd", "$ agent enforce --stats"),
-    ("out", "3 runtimes · 17 hooks · 296 high-risk ops blocked · 0 false positives · blind benchmark 8/8"),
+    ("cmd", "$ airlens status"),
+    ("out", "LIVE  airlens.cloud   PM2.5 nowcast · p10/p50/p90 · A to F confidence · keyless public API"),
+    ("cmd", "$ agent status"),
+    ("out", "Claude Code · Codex · Antigravity · 27 hooks · cross-vendor review gates risk-area commits"),
     ("cmd", "$ cat research.md | head -1"),
     ("out", "What I don't measure, I don't claim.  →  joymin5655.github.io/research"),
 ]
