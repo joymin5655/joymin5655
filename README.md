@@ -49,7 +49,7 @@ Agent/            멀티런타임 AI 거버넌스 하네스 · MIT              
 canine-wgs/       반려견 WGS 파이프라인 · 계산/추론 분리 · 사전등록 측정      joymin5655.github.io/projects/canine-wgs
 second-brain/     타입드 지식 그래프 268노드 · 890 edge · lint 0             joymin5655.github.io/projects/brain
 posture-guard/    KT AIVLE 빅프로젝트 · Collaboration상 · 2026 브라우저 ONNX   joymin5655.github.io/projects/posture
-craft/            FABLE 65p · ALL-IN-ONE IA · Wardenkit                     fable-collection.netlify.app
+craft/            FABLE 65p · ALL-IN-ONE IA · Wardenkit                     joymin5655.github.io/projects/craft
 ```
 
 ```text
